@@ -2,6 +2,8 @@
 #define GLFW_INCLUDE_NONE
 #include "glfw3.h"
 #include "glad.h"
+#include "Tools.h"
+#include "iostream"
 
 int main()
 {
@@ -34,6 +36,8 @@ int main()
 	
 	float col = 0;
 	bool colIncrease = true;
+
+	std::cout << LoadFileAsString("testdoc.txt") << std::endl;
 
 	#pragma endregion
 
