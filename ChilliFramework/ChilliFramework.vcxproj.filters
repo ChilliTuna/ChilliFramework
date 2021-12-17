@@ -24,6 +24,9 @@
     <ClCompile Include="glad.c">
       <Filter>GLAD</Filter>
     </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="glad.h">
@@ -31,6 +34,9 @@
     </ClInclude>
     <ClInclude Include="khrplatform.h">
       <Filter>GLAD</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
