@@ -26,7 +26,7 @@ std::string LoadFileAsString(std::string filename)
 	returnString.pop_back();
 	if (returnString == "")
 	{
-		std::cout << "File \"" << filename << "\" is empty."
+		std::cout << "File \"" << filename << "\" is empty." << std::endl;
 	}
 	return returnString;
 }
