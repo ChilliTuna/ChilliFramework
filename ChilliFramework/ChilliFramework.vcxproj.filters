@@ -24,6 +24,9 @@
     <ClCompile Include="glad.c">
       <Filter>GLAD</Filter>
     </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="glad.h">

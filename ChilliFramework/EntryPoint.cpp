@@ -37,8 +37,6 @@ int main()
 	float col = 0;
 	bool colIncrease = true;
 
-	std::cout << LoadFileAsString("testdoc.txt") << std::endl;
-
 	#pragma endregion
 
 	// Step 5: Run the "game" loop

@@ -1,22 +1,10 @@
 #pragma once
 #include <string>
-#include <fstream>
 
-std::string LoadFileAsString(std::string filename)
-{
-	std::fstream fileReader;
-	fileReader.open(filename, std::ios::in);
-	if (!fileReader.is_open())
-	{
-		return "";
-	}
-	std::string returnString = "";
-	std::string readString;
-	while (!fileReader.eof())
-	{
-		fileReader.getline(fileReader, readString);
-		returnString.append(readString);
-	}
-	fileReader.close();
-	return returnString;
-}
+/// <summary>
+/// Loads a given file, passed into filename, and returns its contents as a string.
+/// If the file fails to load, it will return an empty string and a message in the console.
+/// </summary>
+/// <param name="filename">The filename and path of the file you wish to open. Filepath is relative to the executable.</param>
+/// <returns>The contents of the file passed into filename.</returns>
+std::string LoadFileAsString(std::string filename);
