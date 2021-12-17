@@ -1,6 +1,6 @@
 #pragma once
-#include "glfw3.h"
 #include "glad.h"
+#include "glfw3.h"
 #include <vector>
 
 class Application

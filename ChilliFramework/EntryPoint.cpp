@@ -4,9 +4,14 @@ int main()
 {
 	Application application;
 
-	if (application.Initialise())
+	if (!application.Initialise())
 	{
-		application.Run();
+		return -1;
 	}
+
+	application.Run();
+		
 	application.Shutdown();
+
+	return 0;
 }
